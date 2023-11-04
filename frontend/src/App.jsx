@@ -17,7 +17,7 @@ const router = createBrowserRouter([
 export default function App() {
     return (
         // everything will be settled in middle once screen size becomes greater than 1920px
-        <div className="mx-auto max-w-[1920px]">
+        <div className="mx-auto max-w-[1920px] bg-[#F9FCFF]">
             <RouterProvider router={router} />
         </div>
     );
