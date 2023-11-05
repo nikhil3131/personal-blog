@@ -1,4 +1,5 @@
 import SearchBar from "../components/searchBar/SearchBar";
+import Tags from "../features/tags/Tags";
 
 export default function Landing(){
     return(
@@ -15,7 +16,7 @@ export default function Landing(){
 
                 {/* popular tags */}
                 <div className="pt-[0.96rem]">
-                    <span className="text-md font-bold text-[#5A7184]"><i>Popular Tags: </i></span>
+                    <Tags/>
                 </div>
             </div>
 

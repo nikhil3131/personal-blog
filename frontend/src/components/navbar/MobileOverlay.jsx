@@ -8,7 +8,6 @@ export default function MobileOverlay(){
                 <Link to="">Articles</Link>
                 <Link to="">Pages</Link>
                 <Link to="">Faq</Link>
-                <Link to="">Sign in</Link>
             </div>
         </div>
     )
